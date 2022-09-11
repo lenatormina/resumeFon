@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background:rgba(158, 154, 170, 0.623);
+    font-family: 'Lobster', sans-serif;
+    /* background-image: url(fon.jpg); */
+}
+
+.osn{
+    background-image: url(fon.jpg);
+    position: relative;
+    text-align: center;
+    /* margin: 15px; */
+    padding: 15px;
+    margin: 0px;
+    border: 0px;
+    width: 100%;
+}
+
+/* table {
+    width: 100%;
+} */
+
+.shapka{
+    color: rgb(82, 82, 218);
+    width: 100%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.shapka li{
+    display: inline;
+    margin-right: 5px;
+    padding: 3px;
+    width: 100%;
+}
+
+.name{
+    text-align: left;
+    word-spacing: 3px;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.dop{
+    text-align: right;
+    word-spacing: 3px;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.dop a:hover {
+    color: rgb(122, 72, 182);
+}
+
+a:visited {
+    color:rgb(82, 82, 218);
+} 
+
+.avatar img {
+    border: 23px solid #fafafa;
+    border-top-width: 23px;
+    border-bottom-width: 67px;
+    -webkit-box-shadow: 3px 3px 6px 4px #888;
+    -moz-box-shadow: 3px 3px 6px 4px #888;
+    box-shadow: 12px 11px 6px 4px #8888889c;
+    border-radius: 2px;
+    width: 200px;
+}
+
+
+
+
+
